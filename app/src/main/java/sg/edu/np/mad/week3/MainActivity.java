@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //video file cannot play for some reason 
+        //video file cannot play for some reason
         VideoView view = findViewById(R.id.videoView3);
         view.setVideoURI(
                 Uri.parse("android.resource://" + getPackageName() + "/" + R.raw.rabbid) );
